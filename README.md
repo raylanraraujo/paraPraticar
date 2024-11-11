@@ -15,3 +15,5 @@ O terceiro ícone da barra lateral do VScode (Controle do Código-Fonte) tem ess
 Ao adicionar o arquivo, este por sua vez sai da lista dos arquivos alterados e vai para a lista "Alterações preparadas", disponibilizando-o para serem commitados (git commit -m “ first commit ”). Basta incluir uma mensagem e apertar no botão de commit (confirmação).  
 
 Após commitar, o botão altera para ser um de sincronização, pois ele detecta que há arquivos commitados no repositório local que não foram enviador para o GitHub (repositório remoto). Essa sincronização é equivalente ao comando [git push -u origin main].
+
+Podemos clicar nas reticências no canto superior direito do menu e efetuar o pull (similar ao comando [git pull origin main]) com o objetivo de baixar os novos commits que outros colaboradores do seu repositório enviaram para o GitHub (repositório remoto).
